@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- For Responsive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Curzan - Creative HTML5 Multipurpose Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.ico">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <!-- owlCarousel css -->
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="vendor/wow-master/css/libs/animate.css">
+    <!-- hover css -->
+    <link rel="stylesheet" href="vendor/wow-master/css/libs/hover-min.css">
+    <!-- modal css -->
+    <link rel="stylesheet" href="vendor/modal/css/modal-video.min.css">
+    <!-- material-icon css -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <!-- nice-select css -->
+    <link rel="stylesheet" href="vendor/nice-select/css/nice-select.css">
+    <!-- slick-nav css -->
+    <link rel="stylesheet" href="vendor/slick-nav/css/slicknav.min.css">
+    <!-- slick-nav css -->
+    <link rel="stylesheet" href="vendor/light-box/css/lightbox.min.css">
+
+    <!-- Main style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <!-- Fix Internet Explorer ______________________________________-->
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="vendor/html5shiv.js"></script>
+		<script src="vendor/respond.js"></script>
+	<![endif]-->
+
+
+</head>
+
+<body>
+    <!-- ===================================================
+		Loading Transition
+	==================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+
+    <!-- ===================================================
+		search option
+	==================================================== -->
+    <div class="fullscreen-search">
+        <div class="fullscreen-search-inner">
+            <form action="index.html" class="fullscreen-search-form">
+                <div class="search-close"><i class="zmdi zmdi-close" aria-hidden="true"></i></div>
+                <input type="text" name="search" id="search">
+                <button type="submit"><i class="zmdi zmdi-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <!-- /.fullscreen-search -->
+
+    <!-- ===================================================
+		upper header
+	==================================================== -->
+    <div class="header-top bg-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <p><i class="zmdi zmdi-pin"></i>Pennsylvania Ave , Lebson 1650, Phurtogal</p>
+                </div>
+                <!-- /.col -->
+                <div class="col-lg-7 col-md-12">
+                    <select name="lang" id="lang">
+						<option value="0">ENG</option>
+						<option value="1">SPN</option>
+						<option value="2">ARB</option>
+					</select>
+                    <ul class="header-top-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Claim &amp; Policy</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.header-top -->
+
+    <!-- ===================================================
+		theme header / Menu
+	==================================================== -->
+    <header class="theme-header">
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-xs-12">
+                        <div class="logo wow fadeIn">
+                            <a href="index.html"><img src="images/home/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-lg-9">
+                        <ul class="float-right right-wdiget">
+                            <li class="top-widget">
+                                <i class="zmdi zmdi-map"></i>
+                                <p class="header-widget-title">Main Office</p>
+                                <span>Lebson 1650, Phurtogal</span>
+                            </li>
+                            <li class="top-widget">
+                                <i class="zmdi zmdi-mood"></i>
+                                <p class="header-widget-title">Trusted By</p>
+                                <span>400000+ account</span>
+                            </li>
+                            <li>
+                                <ul class="social-links">
+                                    <li><a href="#" title="Facebook" data-toggle="tooltip"><i class="zmdi zmdi-facebook-box"></i></a></li>
+                                    <li><a href="#" title="Twitter" data-toggle="tooltip"><i class="zmdi zmdi-twitter-box"></i></a></li>
+                                    <li><a href="#" title="Linkedin" data-toggle="tooltip"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+                                    <li><a href="#" title="Instagram" data-toggle="tooltip"><i class="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="#" title="Pinterest" data-toggle="tooltip"><i class="zmdi zmdi-pinterest-box"></i></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.top-header -->
+        <div class="theme-menu-wrapper">
+            <div class="container">
+                <div class="mainmenu bg-two">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mobile-menu"></div>
+                            <ul id="navMenu">
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="#">ABOUT US <i class="zmdi zmdi-chevron-down"></i></a>
+                                    <ul>
+                                        <li><a href="about.html">ABOUT US V1</a></li>
+                                        <li><a href="team.html">OUR TEAM</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="single-case.html">case studies</a></li>
+                                <li><a href="#">SERVICES <i class="zmdi zmdi-chevron-down"></i></a>
+                                    <ul>
+                                        <li><a href="services.html">SERVICE V1</a></li>
+                                        <li><a href="single-portfolio.html">SERVICE DETAILS</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">PORTFOLIO <i class="zmdi zmdi-chevron-down"></i></a>
+                                    <ul>
+                                        <li><a href="portfolio.html">PORTFOLIO V1</a></li>
+                                        <li><a href="single-portfolio.html">PORTFOLIO DETAILS</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">BLOG <i class="zmdi zmdi-chevron-right"></i></a>
+                                    <ul>
+                                        <li><a href="latest-news.html">BLOG GRID</a></li>
+                                        <li><a href="blog.html">BLOG LIST</a></li>
+                                        <li><a href="blog-details.html">BLOG SINGLE</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <div class="searchTrigger">
+                            <i class="zmdi zmdi-search"></i>
+                        </div><!-- /.searchTrigger -->
+                    </div><!-- /.row -->
+                </div><!-- /.mainmenu -->
+            </div><!-- /.container -->
+        </div><!-- /.theme-menu-wrapper -->
+    </header><!-- /.theme-header -->
+
+    <!-- ===================================================
+		theme hero area
+	==================================================== -->
+    <div class="homepage-slider-section">
+        <div class="homepage-slider owl-carousel">
+            <div class="single-slide-item" style="background-image:url('images/home/slide-1.jpg')">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-md-8">
+                            <div class="slide-content">
+                                <h1 class="slide-title" data-animation="fadeInUp" data-delay=".7s" data-duration=".7s"><small>Modern &amp; Creative</small> corporate agency</h1>
+                                <p class="slide-details" data-animation="fadeInUp" data-delay=".4s" data-duration=".4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore vitae incidunt id architecto, praesentium quae culpa soluta.</p>
+                                <a data-animation="fadeInUp" data-delay=".10s" data-duration=".4s" href="#" class="boxed-btn">get in touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.single-slide-item -->
+            <div class="single-slide-item" style="background-image:url('images/home/slide-2.jpg')">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 text-center">
+                            <div class="slide-content">
+                                <h1 class="slide-title" data-animation="fadeInUp" data-delay=".7s" data-duration=".7s"><small>Good &amp; Reliable</small> Economy Growth</h1>
+                                <p class="slide-details" data-animation="fadeInUp" data-delay=".4s" data-duration=".4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus accusantium possimus aliquam cum consequuntur, hic nobis laborum alias.</p>
+                                <a data-animation="fadeInUp" data-delay=".10s" data-duration=".4s" href="#" class="boxed-btn">get in touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.single-slide-item -->
+            <div class="single-slide-item" style="background-image:url('images/home/slide-3.jpg')">
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-md-8 text-right">
+                            <div class="slide-content">
+                                <h1 class="slide-title" data-animation="fadeInUp" data-delay=".7s" data-duration=".7s"><small>possibilities & unique</small> Instant approval</h1>
+                                <p class="slide-details" data-animation="fadeInUp" data-delay=".4s" data-duration=".4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores ex eius rerum, voluptate laborum ab rem error.</p>
+                                <a data-animation="fadeInUp" data-delay=".10s" data-duration=".4s" href="#" class="boxed-btn">get in touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.single-slide-item -->
+        </div>
+    </div>
+
+    <!-- ===================================================
+		project area
+	==================================================== -->
+    <div class="section-padding project-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="section-title wow fadeInUp">
+                        <h6>case we studied</h6>
+                        <h3>Our case studies</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="case-study-carousel owl-carousel wow fadeIn">
+                    <div class="single-project-item">
+                        <div class="project-image">
+                            <img src="images/case-study/5.jpg" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h5><a href="single-case.html">Family Asset Management</a></h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nulla qui sit doloribus aliquid ratione sit, quaerat.</p>
+                            <a href="single-case.html" class="inline-btn"><i class="zmdi zmdi-long-arrow-right"></i> read more </a>
+                        </div>
+                    </div>
+                    <div class="single-project-item">
+                        <div class="project-image">
+                            <img src="images/case-study/6.jpg" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h5><a href="single-case.html">Social Media Analytics</a></h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nulla qui sit doloribus aliquid ratione sit, quaerat.</p>
+                            <a href="single-case.html" class="inline-btn"><i class="zmdi zmdi-long-arrow-right"></i> read more</a>
+                        </div>
+                    </div>
+                    <div class="single-project-item">
+                        <div class="project-image">
+                            <img src="images/case-study/2.jpg" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h5><a href="single-case.html">Risk Management</a></h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nulla qui sit doloribus aliquid ratione sit, quaerat.</p>
+                            <a href="single-case.html" class="inline-btn"><i class="zmdi zmdi-long-arrow-right"></i> read more</a>
+                        </div>
+                    </div>
+                    <div class="single-project-item">
+                        <div class="project-image">
+                            <img src="images/case-study/4.jpg" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h5><a href="single-case.html">Professional Consultant</a></h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nulla qui sit doloribus aliquid ratione sit, quaerat.</p>
+                            <a href="single-case.html" class="inline-btn"><i class="zmdi zmdi-long-arrow-right"></i> read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		service area
+	==================================================== -->
+    <div class="section-padding service-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="section-title wow fadeInUp">
+                        <h6>WHO WE ARE</h6>
+                        <h3>best services</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="service-carousel owl-carousel wow fadeIn">
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <i class="zmdi zmdi-trending-up"></i>
+                        </div>
+                        <h5>Business Growth</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sequi atque neque, accusantium sed.</p>
+                        <a href="single-portfolio.html"> <i class="zmdi zmdi-long-arrow-right"></i> Read More</a>
+                    </div>
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <i class="zmdi zmdi-codepen"></i>
+                        </div>
+                        <h5>Business Planning</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sequi atque neque, accusantium sed.</p>
+                        <a href="single-portfolio.html"> <i class="zmdi zmdi-long-arrow-right"></i> Read More</a>
+                    </div>
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <i class="zmdi zmdi-layers"></i>
+                        </div>
+                        <h5>Taxation</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sequi atque neque, accusantium sed.</p>
+                        <a href="single-portfolio.html"> <i class="zmdi zmdi-long-arrow-right"></i> Read More</a>
+                    </div>
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <i class="zmdi zmdi-car-taxi"></i>
+                        </div>
+                        <h5>Performance</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sequi atque neque, accusantium sed.</p>
+                        <a href="single-portfolio.html"> <i class="zmdi zmdi-long-arrow-right"></i> Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		call to action big area
+	==================================================== -->
+    <div class="section-padding call-to-action cta-bg-1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center wow fadeIn">
+                    <h3><span>used latest technology</span> we makes great theme for you</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quaerat iste et dolore aspernatur omnis, adipisci magni ea illum, nisi.</p>
+                    <a href="#" class="boxed-btn">learn more</a>
+                    <a href="#" class="boxed-btn cta-btn">Buy the theme</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		latest work area
+	==================================================== -->
+    <div class="section-padding latest-work">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="section-title wow fadeInUp">
+                        <h6>RECENT PORTFOLIO</h6>
+                        <h3>awesome work</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <ul class="protfolio-filter wow fadeIn">
+                        <li data-filter="*" class="active">All</li>
+                        <li data-filter=".business">Business</li>
+                        <li data-filter=".interior">interior</li>
+                        <li data-filter=".peinting">peinting</li>
+                        <li data-filter=".crapenter">crapenter</li>
+                        <li data-filter=".case_study">case studies</li>
+                    </ul>
+                </div>
+            </div>
+                <div class="row protfolio-list wow fadeIn">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 interior crapenter peinting p-0">
+                    <div class="single-portfolio-item">
+                        <div class="protfolio-bg protfolio-bg-1"></div>
+                        <div class="protfolio-hover">
+                            <div class="protfolio-cell">
+                                <ul>
+                                    <li><a href="single-portfolio.html"><i class="zmdi zmdi-link"></i></a></li>
+                                    <li><a href="images/home/slide-1.jpg" data-lightbox="big_img"><i class="zmdi zmdi-plus-circle-o"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-favorite-outline"></i></a></li>
+                                </ul>
+                                <h5>working process <span>business</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 business peinting p-0">
+                    <div class="single-portfolio-item">
+                        <div class="protfolio-bg protfolio-bg-2"></div>
+                        <div class="protfolio-hover">
+                            <div class="protfolio-cell">
+                                <ul>
+                                    <li><a href="single-portfolio.html"><i class="zmdi zmdi-link"></i></a></li>
+                                    <li><a href="images/home/slide-2.jpg" data-lightbox="big_img"><i class="zmdi zmdi-plus-circle-o"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-favorite-outline"></i></a></li>
+                                </ul>
+                                <h5>desing demo <span>project</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 interior case_study p-0">
+                    <div class="single-portfolio-item">
+                        <div class="protfolio-bg protfolio-bg-3"></div>
+                        <div class="protfolio-hover">
+                            <div class="protfolio-cell">
+                                <ul>
+                                    <li><a href="single-portfolio.html"><i class="zmdi zmdi-link"></i></a></li>
+                                    <li><a href="images/home/slide-3.jpg" data-lightbox="big_img"><i class="zmdi zmdi-plus-circle-o"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-favorite-outline"></i></a></li>
+                                </ul>
+                                <h5>big things <span>decor</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-0 business crapenter peinting">
+                    <div class="single-portfolio-item">
+                        <div class="protfolio-bg protfolio-bg-4"></div>
+                        <div class="protfolio-hover">
+                            <div class="protfolio-cell">
+                                <ul>
+                                    <li><a href="single-portfolio.html"><i class="zmdi zmdi-link"></i></a></li>
+                                    <li><a href="images/home/about-bg-1.jpg" data-lightbox="big_img"><i class="zmdi zmdi-plus-circle-o"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-favorite-outline"></i></a></li>
+                                </ul>
+                                <h5>my thoughts <span>tools</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-0 case_study interior">
+                    <div class="single-portfolio-item ">
+                        <div class="protfolio-bg protfolio-bg-5"></div>
+                        <div class="protfolio-hover">
+                            <div class="protfolio-cell">
+                                <ul>
+                                    <li><a href="single-portfolio.html"><i class="zmdi zmdi-link"></i></a></li>
+                                    <li><a href="images/home/testimonial-bg.jpg" data-lightbox="big_img"><i class="zmdi zmdi-plus-circle-o"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-favorite-outline"></i></a></li>
+                                </ul>
+                                <h5>everything around <span>business</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-0 business peinting">
+                    <div class="single-portfolio-item">
+                        <div class="protfolio-bg protfolio-bg-6"></div>
+                        <div class="protfolio-hover">
+                            <div class="protfolio-cell">
+                                <ul>
+                                    <li><a href="single-portfolio.html"><i class="zmdi zmdi-link"></i></a></li>
+                                    <li><a href="images/home/video-bg-1.jpg" data-lightbox="big_img"><i class="zmdi zmdi-plus-circle-o"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-favorite-outline"></i></a></li>
+                                </ul>
+                                <h5>cloud inc <span>business</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-0 interior crapenter">
+                    <div class="single-portfolio-item">
+                        <div class="protfolio-bg protfolio-bg-7"></div>
+                        <div class="protfolio-hover">
+                            <div class="protfolio-cell">
+                                <ul>
+                                    <li><a href="single-portfolio.html"><i class="zmdi zmdi-link"></i></a></li>
+                                    <li><a href="images/home/projects-future-bg.jpg" data-lightbox="big_img"><i class="zmdi zmdi-plus-circle-o"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-favorite-outline"></i></a></li>
+                                </ul>
+                                <h5>ethics for<span>Technology</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-0 peinting case_study business">
+                    <div class="single-portfolio-item">
+                        <div class="protfolio-bg protfolio-bg-8"></div>
+                        <div class="protfolio-hover">
+                            <div class="protfolio-cell">
+                                <ul>
+                                    <li><a href="single-portfolio.html"><i class="zmdi zmdi-link"></i></a></li>
+                                    <li><a href="images/home/cta-bg-1.jpg" data-lightbox="big_img"><i class="zmdi zmdi-plus-circle-o"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-favorite-outline"></i></a></li>
+                                </ul>
+                                <h5>desk concept <span>business</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		our-team area
+	==================================================== -->
+    <div class="section-padding team-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="section-title wow fadeInUp">
+                        <h6>OUR TEAM</h6>
+                        <h3>creative person</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeIn">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-team-box">
+                        <div class="team-bg">
+                            <img src="images/team/1.jpg" alt="">
+                            <div class="team-hover">
+                                <ul class="social-links">
+                                    <li><a href="#" title="Facebook" data-toggle="tooltip"><i class="zmdi zmdi-facebook-box"></i></a></li>
+                                    <li><a href="#" title="Twitter" data-toggle="tooltip"><i class="zmdi zmdi-twitter-box"></i></a></li>
+                                    <li><a href="#" title="Linkedin" data-toggle="tooltip"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+                                    <li><a href="#" title="Instagram" data-toggle="tooltip"><i class="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="#" title="Pinterest" data-toggle="tooltip"><i class="zmdi zmdi-pinterest-box"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h5>Mavrick Jhon <span>Excutive Officer</span></h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-team-box">
+                        <div class="team-bg">
+                            <img src="images/team/2.jpg" alt="">
+                            <div class="team-hover">
+                                <ul class="social-links">
+                                    <li><a href="#" title="Facebook" data-toggle="tooltip"><i class="zmdi zmdi-facebook-box"></i></a></li>
+                                    <li><a href="#" title="Twitter" data-toggle="tooltip"><i class="zmdi zmdi-twitter-box"></i></a></li>
+                                    <li><a href="#" title="Linkedin" data-toggle="tooltip"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+                                    <li><a href="#" title="Instagram" data-toggle="tooltip"><i class="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="#" title="Pinterest" data-toggle="tooltip"><i class="zmdi zmdi-pinterest-box"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h5>Leanda Derek<span>Project Mangager</span></h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-team-box">
+                        <div class="team-bg">
+                            <img src="images/team/3.jpg" alt="">
+                            <div class="team-hover">
+                                <ul class="social-links">
+                                    <li><a href="#" title="Facebook" data-toggle="tooltip"><i class="zmdi zmdi-facebook-box"></i></a></li>
+                                    <li><a href="#" title="Twitter" data-toggle="tooltip"><i class="zmdi zmdi-twitter-box"></i></a></li>
+                                    <li><a href="#" title="Linkedin" data-toggle="tooltip"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+                                    <li><a href="#" title="Instagram" data-toggle="tooltip"><i class="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="#" title="Pinterest" data-toggle="tooltip"><i class="zmdi zmdi-pinterest-box"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h5>Mahfuzur Rahman <span>Web devloper</span></h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-team-box">
+                        <div class="team-bg">
+                            <img src="images/team/4.jpg" alt="">
+                            <div class="team-hover">
+                                <ul class="social-links">
+                                    <li><a href="#" title="Facebook" data-toggle="tooltip"><i class="zmdi zmdi-facebook-box"></i></a></li>
+                                    <li><a href="#" title="Twitter" data-toggle="tooltip"><i class="zmdi zmdi-twitter-box"></i></a></li>
+                                    <li><a href="#" title="Linkedin" data-toggle="tooltip"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+                                    <li><a href="#" title="Instagram" data-toggle="tooltip"><i class="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="#" title="Pinterest" data-toggle="tooltip"><i class="zmdi zmdi-pinterest-box"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h5>Darkiyna Oli <span>Financial Adviser</span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		call to action small area
+	==================================================== -->
+    <div class="section-padding cta-video cta-video-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center wow fadeIn">
+                    <h3>Want to Know More About Us ?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, voluptatem vitae, repellat necessitatibus eveniet deleniti.</p>
+                    <button type="button" class="video-play-btn" data-video-id="KeJNol9yJ_c"><i class="zmdi zmdi-play"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		latest-news area
+	==================================================== -->
+    <div class="section-padding latest-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="section-title wow fadeInUp">
+                        <h6>READ THE NEWS</h6>
+                        <h3>latest blog</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center wow fadeIn">
+                <div class="lates-news-carousel owl-carousel">
+                    <div class="single-latest-item">
+                        <a href="latest-news.html"><img src="images/blog/1.jpg" alt=""></a>
+                        <div class="news-content">
+                            <h5><a href="latest-news.html">It uses Dictionary over Lorem
+								Latin words.</a></h5>
+                            <ul>
+                                <li>By Mavrick Jhon</li>
+                                <li>10 March 2018</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint deleniti dignissimos, labore dolorem libero doloribus nesciunt neque voluptates.</p>
+                            <a href="latest-news.html" class="inline-btn"><i class="zmdi zmdi-long-arrow-right"></i> read more</a>
+                        </div>
+                    </div>
+                    <div class="single-latest-item">
+                        <a href="latest-news.html"><img src="images/blog/2.jpg" alt=""></a>
+                        <div class="news-content">
+                            <h5><a href="latest-news.html">The point of using Lorem that
+							 more-or-less</a></h5>
+                            <ul>
+                                <li>By Fazli Decode</li>
+                                <li>10 March 2018</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint deleniti dignissimos, labore dolorem libero doloribus nesciunt neque voluptates.</p>
+                            <a href="latest-news.html" class="inline-btn"><i class="zmdi zmdi-long-arrow-right"></i> read more</a>
+                        </div>
+                    </div>
+                    <div class="single-latest-item">
+                        <a href="latest-news.html"><img src="images/blog/3.jpg" alt=""></a>
+                        <div class="news-content">
+                            <h5><a href="latest-news.html">Dictionary uses of over Lorem								combined words.</a></h5>
+                            <ul>
+                                <li>By William Zack</li>
+                                <li>10 March 2018</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint deleniti dignissimos, labore dolorem libero doloribus nesciunt neque voluptates.</p>
+                            <a href="latest-news.html" class="inline-btn"><i class="zmdi zmdi-long-arrow-right"></i> read more</a>
+                        </div>
+                    </div>
+                    <div class="single-latest-item">
+                        <a href="latest-news.html"><img src="images/blog/6.jpg" alt=""></a>
+                        <div class="news-content">
+                            <h5><a href="latest-news.html">It was popularised in 1960s
+								 the release.</a></h5>
+                            <ul>
+                                <li>By William Zack</li>
+                                <li>10 March 2018</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint deleniti dignissimos, labore dolorem libero doloribus nesciunt neque voluptates.</p>
+                            <a href="latest-news.html" class="inline-btn"><i class="zmdi zmdi-long-arrow-right"></i> read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		testimonial area
+	==================================================== -->
+    <div class="section-padding testimonial-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="section-title wow fadeInUp">
+                        <h6>claint reviews</h6>
+                        <h3>testimonials</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center wow fadeIn">
+                <div class="col-lg-8 text-center">
+                    <div class="tesitmonial-carousel owl-carousel">
+                        <div class="single-testimonial-item">
+                            <p>
+                                <i class="zmdi zmdi-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non rerum, animi eveniet dolor aperiam ullam suscipit facilis voluptatum nihil deserunt, veritatis repellendus laboriosam deleniti
+                                modi quos excepturi praesentium. Alias, est!
+                            </p>
+                            <h5>Mavrick Jhon <span>Devloper</span></h5>
+                        </div>
+                        <div class="single-testimonial-item">
+                            <p>
+                                <i class="zmdi zmdi-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non rerum, animi eveniet dolor aperiam ullam suscipit facilis voluptatum nihil deserunt, veritatis repellendus laboriosam deleniti
+                                modi quos excepturi praesentium. Alias, est!
+                            </p>
+                            <h5>William Decode <span>Designer</span></h5>
+                        </div>
+                        <div class="single-testimonial-item">
+                            <p>
+                                <i class="zmdi zmdi-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non rerum, animi eveniet dolor aperiam ullam suscipit facilis voluptatum nihil deserunt, veritatis repellendus laboriosam deleniti
+                                modi quos excepturi praesentium. Alias, est!
+                            </p>
+                            <h5>Deo Kastalic <span>Photographer</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		newslater area
+	==================================================== -->
+    <div class="section-padding newslatter-area newsltr-bg-1">
+        <div class="container">
+            <div class="row wow fadeIn">
+                <div class="col-lg-6">
+                    <div class="count-area">
+                        <ul>
+                            <li><i class="zmdi zmdi-mood"></i></li>
+                            <li><span class="count">125</span></li>
+                            <li>
+                                <p>Happyc <br>project</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><i class="zmdi zmdi-coffee"></i></li>
+                            <li><span class="count">229</span></li>
+                            <li>
+                                <p>CUPS <br>OF COFFIE</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><i class="zmdi zmdi-check-square"></i></li>
+                            <li><span class="count">456</span></li>
+                            <li>
+                                <p>Completed <br>project</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><i class="zmdi zmdi-collection-case-play"></i></li>
+                            <li><span class="count">156</span></li>
+                            <li>
+                                <p>PSITIVE <br>FEEDBACK</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="newslater">
+                        <h3>Subscribe to <span>newslater</span></h3>
+                        <p>sing up for newslter and folow us on social media</p>
+                        <form action="index.html" method="POST">
+                            <input type="email" name="email" placeholder="type your email">
+                            <input type="submit" value="send message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===================================================
+		claint-carousel area
+	==================================================== -->
+    <div class="section-padding ourcliants-area">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12 wow fadeIn">
+                    <div class="claint-carousel owl-carousel">
+                        <div class="single-claint">
+                            <div class="table-cell">
+                                <img src="images/sponser/market-place-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="single-claint">
+                            <div class="table-cell">
+                                <img src="images/sponser/market-place-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="single-claint">
+                            <div class="table-cell">
+                                <img src="images/sponser/market-place-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="single-claint">
+                            <div class="table-cell">
+                                <img src="images/sponser/market-place-4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="single-claint">
+                            <div class="table-cell">
+                                <img src="images/sponser/market-place-5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="single-claint">
+                            <div class="table-cell">
+                                <img src="images/sponser/market-place-6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="single-claint">
+                            <div class="table-cell">
+                                <img src="images/sponser/market-place-7.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		footer top area
+	==================================================== -->
+    <div class="container">
+        <div class="footer-top-area wow fadeInDown">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="contact-items">
+                        <li><span class="contact-item-icon"><i class="zmdi zmdi-email"></i></span><a href="mailto:info@gmail.com">info@gmail.com</a></li>
+                        <li><span class="contact-item-icon"><i class="zmdi zmdi-phone"></i></span><a href="tel:111(444)355353">111 (444) 355353</a></li>
+                        <li><span class="contact-item-icon"><i class="zmdi zmdi-pin-drop"></i></span>Lebson 1650, Phurtogal.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================
+		footer area
+	==================================================== -->
+    <div class="footer-area wow fadeIn">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widgets widgets-1">
+                        <h2>ABOUT Curzan</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsum, ad quas!</p>
+                        <a href="#" class="footer-logo">Curzan</a>
+                        <div class="footer-scial-links">
+                            <a href="#" title="Facebook" data-toggle="tooltip"><i class="zmdi zmdi-facebook-box"></i></a>
+                            <a href="#" title="Twitter" data-toggle="tooltip"><i class="zmdi zmdi-twitter-box"></i></a>
+                            <a href="#" title="Instagram" data-toggle="tooltip"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="#" title="Linkedin" data-toggle="tooltip"><i class="zmdi zmdi-linkedin-box"></i></a>
+                            <a href="#" title="Pinterest" data-toggle="tooltip"><i class="zmdi zmdi-pinterest-box"></i></a>
+                            <a href="#" title="Google plus" data-toggle="tooltip"><i class="zmdi zmdi-google-plus-box"></i></a>
+                            <a href="#" title="Vimeo" data-toggle="tooltip"><i class="zmdi zmdi-vimeo-box"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="single-footer-widgets widgets-2">
+                        <h2>NAVIGATION</h2>
+                        <ul>
+                            <li><a href="index.html"><i class="zmdi zmdi-caret-right"></i> Home</a></li>
+                            <li><a href="services.html"><i class="zmdi zmdi-caret-right"></i> Service</a></li>
+                            <li><a href="about.html"><i class="zmdi zmdi-caret-right"></i> About us</a></li>
+                            <li><a href="single-case.html"><i class="zmdi zmdi-caret-right"></i> Project</a></li>
+                            <li><a href="latest-news.html"><i class="zmdi zmdi-caret-right"></i> News</a></li>
+                            <li><a href="contact.html"><i class="zmdi zmdi-caret-right"></i> Contact</a></li>
+                            <li><a href="contact.html"><i class="zmdi zmdi-caret-right"></i> Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widgets widgets-3">
+                        <h2>Photo gallery</h2>
+                        <div class="photo-gallery">
+                            <a href="#"><img src="images/photo-gallery/img-01.jpg" alt=""></a>
+                            <a href="#"><img src="images/photo-gallery/img-02.jpg" alt=""></a>
+                            <a href="#"><img src="images/photo-gallery/img-03.jpg" alt=""></a>
+                            <a href="#"><img src="images/photo-gallery/img-04.jpg" alt=""></a>
+                            <a href="#"><img src="images/photo-gallery/img-05.jpg" alt=""></a>
+                            <a href="#"><img src="images/photo-gallery/img-06.jpg" alt=""></a>
+                            <a href="#"><img src="images/photo-gallery/img-07.jpg" alt=""></a>
+                            <a href="#"><img src="images/photo-gallery/img-08.jpg" alt=""></a>
+                            <a href="#"><img src="images/photo-gallery/img-09.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-footer-widgets widgets-4">
+                        <h2>Our Newsletter</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione mollitia magnam, eveniet animi ipsum commodi provident esse suscipit enim iste cum laudantium aliquid harum facere, hic amet. Eos, ipsa, molestias?</p>
+                        <i>Get latest updates and offers.</i>
+                        <div class="email-form">
+                            <form action="index.html">
+                                <input type="email" name="email" id="email" placeholder="your email">
+                                <button type="submit"><i class="zmdi zmdi-email"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-text">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 text-center">
+                        <p>&copy; 2018 Curzan Devlope and design by Mihir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scroll Top Button -->
+    <div id="scroll-top" title="Scroll To Top" data-toggle="tooltip">
+        <i class="zmdi zmdi-chevron-up"></i>
+    </div>
+
+    <!-- Js File_________________________________ -->
+
+    <!-- jQuery -->
+    <script src="vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap JS -->
+    <script src="vendor/bootstrap/popper-1.1.0.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- owlCarousel JS -->
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+    <!-- magnificPopup JS -->
+    <script src="vendor/modal/js/modal-video.js"></script>
+    <!-- isotope JS -->
+    <script src="vendor/isotope/js/jquery.isotope-3.0.4.min.js"></script>
+    <!-- counter JS -->
+    <script src="vendor/counter/jquery.counterup.min.js"></script>
+    <script src="vendor/wow-master/dist/waypoints.js"></script>
+    <!-- nice-select JS -->
+    <script src="vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    <!-- wow JS -->
+    <script src="vendor/wow-master/dist/wow.min.js"></script>
+    <!-- slick-nav JS -->
+    <script src="vendor/slick-nav/js/jquery.slicknav.min.js"></script>
+    <!-- light-box JS -->
+    <script src="vendor/light-box/js/lightbox.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
